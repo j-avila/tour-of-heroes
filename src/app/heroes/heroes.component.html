@@ -1,0 +1,27 @@
+<div class="row">
+    <div class="col-sm6">
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <label class="input-group-text">Hero Name: </label>
+        </div>
+        <input class="form-control" #heroName />
+        <div class="input-group-prepend">
+          <button (click)="add(heroName.value); heroName.value=''">
+            <i class="fa fa-user-plus"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class=" col-sm-6 hero-holders">
+      <h2>My heroes</h2>
+        <div class="b-holder">
+          <button
+            *ngFor="let hero of heroes"
+            class="btn btn-secondary" routerLink="/detail/{{hero.id}}">
+            <span>{{hero.id}} </span>{{hero.name}} <i class="fa fa-trash" (click)="delete(hero)"></i>
+          </button>
+        </div>
+    </div>
+  
+  
+  </div>

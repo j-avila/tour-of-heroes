@@ -1,0 +1,13 @@
+
+<div class="row search-widget">
+  <h1>hero search</h1>
+  <input #searchBox id="search-box" (keyup)="search(searchBox.value)" />
+  <div class="col-sm-6">
+    <ul class="search-result list-group">
+      <li *ngFor="let hero of heroes$ | async" class="list-group-item">
+        <a routerLink="/detail/{{hero.id}}">{{hero.name}}</a>
+      </li>
+    </ul>
+  </div>
+</div>
+

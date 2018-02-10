@@ -1,0 +1,14 @@
+.card{
+  max-width: 16rem;
+}
+
+.b-holder button{
+  margin: 0.2em;
+  transition: 0.5s ease all;
+}
+
+.selected{
+  transition: 0.5s ease all;
+  background: rgb(182, 0, 0);
+  color: white;
+}

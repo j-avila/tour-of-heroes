@@ -1,0 +1,21 @@
+<div *ngIf="hero" class="col-sm-12">
+  <a (click)="goBack()"><i class="fa fa-angle-double-left"></i></a>
+  <div class="card">
+    <div class="card-body">
+      <h2 class="card-title">{{hero.name | uppercase}} Details</h2>
+      <div>
+        <span>id: </span>{{hero.id}}</div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <label class="input-group-text">Name</label>
+        </div>
+        <input class="form-control" [(ngModel)]="hero.name" placeholder="name">
+        <div class="input-group-prepend">
+          <button (click)="save()">
+            <i class="fa fa-save"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

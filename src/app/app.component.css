@@ -1,0 +1,17 @@
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: unset !important;
+}
+
+.jumbotron{
+  text-align: center;
+}
+
+.main h2{
+  text-align: center;
+  margin-bottom: 2em;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: rgb(201, 1, 1);
+}
