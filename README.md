@@ -1,5 +1,5 @@
 # tour-of-heroes
-Crado con Angular cli:
+Creado con Angular cli:
 En esta app se abarcan las siguientes caracteristicas:
 -creación de modulos
 -routing entre omponenetes
