@@ -1,7 +1,9 @@
 # tour-of-heroes
-Creado con Angular cli:
-En esta app se abarcan las siguientes caracteristicas:
--creación de modulos
--routing entre omponenetes
--creación de servicios
--http requests a una api (get,push, delete)
+<h2>Creado con Angular cli: </h2>
+<p>En esta app se abarcan las siguientes caracteristicas: </p>
+<ul>
+  <li>-creación de modulos</li>
+  <li>-routing entre omponenetes</li>
+  <li>-creación de servicios</li>
+  <li>-http requests a una api (get,push, delete)</li>
+</ul>
